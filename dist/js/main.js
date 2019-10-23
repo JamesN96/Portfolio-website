@@ -16,18 +16,18 @@ menuBtn.addEventListener("click", showMenu);
 
 function showMenu() {
   if (!menuState) {
-    menuBtn.classList.add(".close");
-    menu.classList.add(".show");
-    menuBrand.classList.add(".show");
-    menuNav.classList.add(".show");
-    navItem.forEach(item => item.classList.add(".show"));
+    menuBtn.classList.add("close");
+    menu.classList.add("show");
+    menuBrand.classList.add("show");
+    menuNav.classList.add("show");
+    navItem.forEach(item => item.classList.add("show"));
     menuState = true;
   } else {
-    menuBtn.classList.remove(".close");
-    menu.classList.remove(".show");
-    menuBrand.classList.remove(".show");
-    menuNav.classList.remove(".show");
-    navItem.forEach(item => item.classList.remove(".show"));
+    menuBtn.classList.remove("close");
+    menu.classList.remove("show");
+    menuBrand.classList.remove("show");
+    menuNav.classList.remove("show");
+    navItem.forEach(item => item.classList.remove("show"));
     menuState = false;
   }
 }
