@@ -157,7 +157,7 @@ header {
 
 main {
   padding: 4rem;
-  height: 100%;
+  min-height: calc(100vh - 72px);
   text-align: center; }
   main .icons {
     margin-top: 3rem; }
@@ -188,7 +188,11 @@ main {
       transition: all 0.5s ease-out; }
 
 main#about {
-  text-align: start; }
+  text-align: start;
+  padding-right: 100px; }
+  main#about h1,
+  main#about h2 {
+    margin-left: 8rem; }
   main#about h2 {
     margin-bottom: 5rem; }
 
@@ -202,8 +206,15 @@ main#about {
   grid-area: img;
   height: 350px;
   border-radius: 50%;
+  border: 3px solid #1ed99b;
   margin: auto; }
 
 .bio-content {
   grid-area: content;
-  text-align: start; }
+  text-align: start;
+  line-height: 2rem; }
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #1fdd9e; }
