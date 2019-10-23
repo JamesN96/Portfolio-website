@@ -5,12 +5,14 @@ const menu = document.querySelector(".menu");
 const menuBrand = document.querySelector(".menu-branding");
 const menuNav = document.querySelector(".menu-nav");
 const navItem = document.querySelectorAll(".nav-item");
+const homeBtn = document.querySelector("#get-started");
 
 // Menu State
 
 let menuState = false;
 
 menuBtn.addEventListener("click", showMenu);
+homeBtn.addEventListener("click", showMenu);
 
 // showMenu function
 
