@@ -6,6 +6,7 @@ const menuBrand = document.querySelector(".menu-branding");
 const menuNav = document.querySelector(".menu-nav");
 const navItem = document.querySelectorAll(".nav-item");
 const homeBtn = document.querySelector("#get-started");
+const navClose = document.querySelector(".nav-close");
 
 // Menu State
 
@@ -13,6 +14,7 @@ let menuState = false;
 
 menuBtn.addEventListener("click", showMenu);
 homeBtn.addEventListener("click", showMenu);
+navClose.addEventListener("click", showMenu);
 
 // showMenu function
 
