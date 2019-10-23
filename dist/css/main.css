@@ -200,13 +200,31 @@ main#project h2 {
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 1rem; }
+  column-gap: 1rem;
+  row-gap: 1rem; }
   .projects img {
     width: 100%;
     border: 3px solid #1ed99b; }
     .projects img:hover {
       transform: scale(1.1);
       transition: all 0.5s ease-out; }
+
+.btn, .btn-light, .btn-dark {
+  display: block;
+  padding: 0.4rem 1rem; }
+
+.btn-light {
+  background: #45e5b0;
+  color: #000; }
+  .btn-light:hover {
+    background: #fff;
+    color: #000; }
+
+.btn-dark {
+  background: black; }
+  .btn-dark:hover {
+    background: #fff;
+    color: #000; }
 
 footer {
   text-align: center;
