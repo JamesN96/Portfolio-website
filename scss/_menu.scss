@@ -7,6 +7,7 @@
   z-index: 3;
   cursor: pointer;
   @include easeOut;
+  visibility: hidden;
 
   .btn-line {
     width: 28px;
@@ -76,6 +77,14 @@
     position: absolute;
     top: 35px;
     right: 45px;
+    cursor: pointer;
+    @include easeOut;
+
+    &:hover {
+      .btn-line {
+        background: $secondary-color;
+      }
+    }
 
     .btn-line {
       width: 28px;

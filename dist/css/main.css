@@ -4,7 +4,8 @@
   right: 35px;
   z-index: 3;
   cursor: pointer;
-  transition: all 0.5s ease-out; }
+  transition: all 0.5s ease-out;
+  visibility: hidden; }
   .menu-btn .btn-line {
     width: 28px;
     height: 3px;
@@ -53,7 +54,11 @@
   .menu .nav-close {
     position: absolute;
     top: 35px;
-    right: 45px; }
+    right: 45px;
+    cursor: pointer;
+    transition: all 0.5s ease-out; }
+    .menu .nav-close:hover .btn-line {
+      background: #1ed99b; }
     .menu .nav-close .btn-line {
       width: 28px;
       height: 3px;
@@ -151,7 +156,9 @@ main {
     border: 2px solid #1ed99b;
     border-radius: 10px;
     font-size: 1.1rem;
-    color: #fff; }
+    color: #fff;
+    outline: none;
+    cursor: pointer; }
     main #get-started:hover {
       background: #1ed99b;
       transform: scale(1.1);
