@@ -167,14 +167,12 @@ main {
       transform: scale(1.1);
       transition: all 0.5s ease-out; }
 
-main#about {
-  text-align: start; }
-  main#about h1,
-  main#about h2 {
-    width: 85%;
-    margin: 0 auto; }
-  main#about h2 {
-    margin-bottom: 5rem; }
+main#about h1,
+main#about h2 {
+  text-align: center; }
+
+main#about h2 {
+  margin-bottom: 5rem; }
 
 .bio {
   display: grid;
@@ -218,18 +216,21 @@ main#project h2 {
   color: #000; }
   .btn-light:hover {
     background: #fff;
-    color: #000; }
+    color: #000;
+    transition: all 0.5s ease-out; }
 
 .btn-dark {
   background: black; }
   .btn-dark:hover {
     background: #fff;
-    color: #000; }
+    color: #000;
+    transition: all 0.5s ease-out; }
 
 footer {
   text-align: center;
   padding: 1.5rem;
-  background: #1fdd9e; }
+  background: #1fdd9e;
+  color: #000; }
 
 @media screen and (min-width: 1171px) {
   .projects {

@@ -100,12 +100,9 @@ main {
 // About HTML
 
 main#about {
-  text-align: start;
-
   h1,
   h2 {
-    width: 85%;
-    margin: 0 auto;
+    text-align: center;
   }
 
   h2 {
@@ -170,6 +167,7 @@ main#project {
   &:hover {
     background: #fff;
     color: text-color(#fff);
+    @include easeOut;
   }
 }
 
@@ -180,6 +178,7 @@ main#project {
   &:hover {
     background: #fff;
     color: text-color(#fff);
+    @include easeOut;
   }
 }
 
@@ -189,6 +188,7 @@ footer {
   text-align: center;
   padding: 1.5rem;
   background: lighten($secondary-color, 1);
+  color: text-color($secondary-color);
 }
 
 @import "mobile";
