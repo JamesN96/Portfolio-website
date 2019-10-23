@@ -231,11 +231,17 @@ footer {
   padding: 1.5rem;
   background: #1fdd9e; }
 
+@media screen and (min-width: 1171px) {
+  .projects {
+    grid-template-columns: repeat(4, 1fr); } }
+
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .menu .menu-nav {
     width: 80%; }
   main .sm-heading {
-    margin-bottom: 2.5rem; } }
+    margin-bottom: 2.5rem; }
+  .projects {
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (max-width: 768px) {
   header .menu .menu-nav {
@@ -252,10 +258,14 @@ footer {
       grid-template-columns: 1fr; }
     main#about .bio-content {
       text-align: center;
-      margin-top: 3rem; } }
+      margin-top: 3rem; }
+  .projects {
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
   main#home h1.lg-heading {
     margin-top: 10vh; }
   main#home .text-secondary {
-    margin-left: -15px; } }
+    margin-left: -15px; }
+  .projects {
+    grid-template-columns: 1fr; } }
