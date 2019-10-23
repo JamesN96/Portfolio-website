@@ -47,7 +47,8 @@
     padding: 1.5rem 0;
     text-transform: uppercase;
     font-size: 2rem;
-    transition: all 0.5s ease-out; }
+    transition: all 0.5s ease-out;
+    color: #fff; }
     .menu .nav-link:hover {
       color: #1ed99b;
       transform: scale(1.1); }
@@ -107,7 +108,7 @@
 
 body {
   background: #444;
-  color: #ffffff;
+  color: #fff;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -161,7 +162,8 @@ main {
   main .icons {
     margin-top: 3rem; }
     main .icons a {
-      padding: 0.4rem; }
+      padding: 0.4rem;
+      color: #fff; }
       main .icons a:hover {
         color: #1ed99b;
         transition: all 0.5s ease-out; }
