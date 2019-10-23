@@ -1,6 +1,5 @@
 @import "config";
 @import "menu";
-@import "mobile";
 
 * {
   box-sizing: border-box;
@@ -102,11 +101,11 @@ main {
 
 main#about {
   text-align: start;
-  padding-right: 100px;
 
   h1,
   h2 {
-    margin-left: 8rem;
+    width: 85%;
+    margin: 0 auto;
   }
 
   h2 {
@@ -140,3 +139,5 @@ footer {
   padding: 1.5rem;
   background: lighten($secondary-color, 1);
 }
+
+@import "mobile";
