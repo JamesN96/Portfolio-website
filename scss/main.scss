@@ -96,3 +96,32 @@ main {
     }
   }
 }
+
+// About HTML
+
+main#about {
+  text-align: start;
+
+  h2 {
+    margin-bottom: 5rem;
+  }
+}
+
+.bio {
+  display: grid;
+  grid-template-areas: "img content content";
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+}
+
+.profile-img {
+  grid-area: img;
+  height: 350px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.bio-content {
+  grid-area: content;
+  text-align: start;
+}
