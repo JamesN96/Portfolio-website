@@ -71,8 +71,31 @@
       transform: scale(1.1);
     }
   }
+
+  .nav-close {
+    position: absolute;
+    top: 35px;
+    right: 45px;
+
+    .btn-line {
+      width: 28px;
+      height: 3px;
+      margin: 0 0 5px 0;
+      background: #fff;
+      @include easeOut;
+
+      &:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 0px);
+      }
+
+      &:nth-child(2) {
+        transform: rotate(-45deg) translate(5px, 0px);
+      }
+    }
+  }
 }
 
+// Set a transition delay for each nav item
 @for $x from 1 through 4 {
   .nav-item:nth-child(#{$x}) {
     transition-delay: $x * 0.25s;
