@@ -27,21 +27,15 @@
     visibility: visible;
   }
 
-  &-branding,
   &-nav {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
+    margin: 0 auto;
+    padding: 0;
+    height: 100vh;
+    width: 50%;
     align-items: center;
     justify-content: center;
-    float: left;
-    width: 50%;
-    height: 100vh;
-    overflow: hidden;
-  }
-
-  &-nav {
-    margin: 0;
-    padding: 0;
     list-style: none;
     background: darken($primary-color, 3);
     transform: translate3d(0, -100%, 0);
