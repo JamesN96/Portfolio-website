@@ -186,3 +186,24 @@ main {
       background: #1ed99b;
       transform: scale(1.1);
       transition: all 0.5s ease-out; }
+
+main#about {
+  text-align: start; }
+  main#about h2 {
+    margin-bottom: 5rem; }
+
+.bio {
+  display: grid;
+  grid-template-areas: "img content content";
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem; }
+
+.profile-img {
+  grid-area: img;
+  height: 350px;
+  border-radius: 50%;
+  margin: auto; }
+
+.bio-content {
+  grid-area: content;
+  text-align: start; }
