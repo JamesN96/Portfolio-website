@@ -1,0 +1,52 @@
+// Widescreen desktops
+
+@include mediaXl {
+}
+
+// Laptops and Desktops
+
+@include mediaLg {
+  .menu {
+    .menu-nav {
+      width: 80%;
+    }
+  }
+
+  main {
+    .sm-heading {
+      margin-bottom: 2.5rem;
+    }
+  }
+}
+
+// Small laptops and Tablets
+
+@include mediaMd {
+  header {
+    .menu {
+      .menu-nav {
+        width: 100%;
+        min-height: 0;
+      }
+    }
+  }
+
+  main {
+    h1 {
+      line-height: 7rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+// Phones
+
+@include mediaSm {
+  main#home h1.lg-heading {
+    margin-top: 10vh;
+  }
+
+  main#home .text-secondary {
+    margin-left: -15px;
+  }
+}
