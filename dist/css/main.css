@@ -292,18 +292,22 @@ main#contact {
       outline: none;
       font-size: 1rem; }
     main#contact .contact-form button[type="submit"] {
+      color: #fff;
       display: block;
       width: 20%;
       padding: 0.7rem 0;
       margin: 2rem auto 0;
+      background: transparent;
       border-radius: 10px;
-      border: none;
+      border: 1px solid black;
       outline: none;
       font-size: 1.1rem;
-      cursor: pointer; }
+      cursor: pointer;
+      transition: all 0.5s ease-out; }
       main#contact .contact-form button[type="submit"]:hover {
         background: #1ed99b;
-        transform: scale(1.01); }
+        transform: scale(1.01);
+        transition: all 0.5s ease-out; }
 
 footer {
   text-align: center;
