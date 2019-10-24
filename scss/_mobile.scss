@@ -46,8 +46,6 @@
     }
   }
 
-  // About html
-
   // Hide Nav2
 
   .menu-btn {
@@ -76,6 +74,9 @@
   }
 
   // Projects
+  main#project {
+    margin-top: 1rem;
+  }
 
   .projects {
     grid-template-columns: repeat(2, 1fr);

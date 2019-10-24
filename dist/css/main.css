@@ -329,6 +329,8 @@ footer {
     main#about .bio-content {
       text-align: center;
       margin-top: 3rem; }
+  main#project {
+    margin-top: 1rem; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
