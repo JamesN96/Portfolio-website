@@ -124,11 +124,19 @@
       display: inline-block;
       padding-right: 3rem;
 
+      &.current > a {
+        color: $secondary-color;
+      }
+
       a {
         font-size: 1.6rem;
         text-transform: uppercase;
         border-bottom: 1px solid $secondary-color;
         padding-bottom: 0.5rem;
+
+        &:hover {
+          color: $secondary-color;
+        }
       }
     }
   }
