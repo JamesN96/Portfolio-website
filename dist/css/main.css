@@ -12,6 +12,14 @@
     margin: 0 0 5px 0;
     background: #fff;
     transition: all 0.5s ease-out; }
+  .menu-btn.close .btn-line:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 5px); }
+  .menu-btn.close .btn-line:nth-child(2) {
+    visibility: hidden; }
+  .menu-btn.close .btn-line:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -5px); }
+  .menu-btn:hover .btn-line {
+    background: #1ed99b; }
 
 .menu {
   position: fixed;
