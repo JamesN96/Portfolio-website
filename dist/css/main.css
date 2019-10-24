@@ -273,22 +273,24 @@ main#contact {
     border: 3px solid #1ed99b;
     background: #373737;
     width: 45rem;
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
     margin: 0 auto;
     text-align: start; }
     main#contact .contact-form label {
-      color: #1ed99b;
-      font-weight: bold;
-      padding-left: 1.6rem; }
+      color: #1ed99b; }
+    main#contact .contact-form .label {
+      width: 90%;
+      margin: 0 auto; }
     main#contact .contact-form input[type="text"],
     main#contact .contact-form input[type="email"],
     main#contact .contact-form input[type="number"],
     main#contact .contact-form textarea {
       display: block;
       width: 90%;
-      padding: 0.5rem 0;
+      padding: 0.5rem 0.5rem;
       margin: 10px auto;
-      outline: none; }
+      outline: none;
+      font-size: 1rem; }
     main#contact .contact-form button[type="submit"] {
       display: block;
       width: 20%;

@@ -199,14 +199,17 @@ main#contact {
     border: 3px solid $secondary-color;
     background: darken($primary-color, 5);
     width: 45rem;
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
     margin: 0 auto;
     text-align: start;
 
     label {
       color: $secondary-color;
-      font-weight: bold;
-      padding-left: 1.6rem;
+    }
+
+    .label {
+      width: 90%;
+      margin: 0 auto;
     }
     input[type="text"],
     input[type="email"],
@@ -214,9 +217,10 @@ main#contact {
     textarea {
       display: block;
       width: 90%;
-      padding: 0.5rem 0;
+      padding: 0.5rem 0.5rem;
       margin: 10px auto;
       outline: none;
+      font-size: 1rem;
     }
 
     button[type="submit"] {
