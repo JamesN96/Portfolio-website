@@ -190,19 +190,15 @@ main#project {
 
 main#contact {
   // border: 1px solid red;
-  border-left: 2px solid $secondary-color;
-  border-right: 2px solid $secondary-color;
-  margin: 0 auto;
-  width: 40%;
+  margin: 2rem auto 0;
   background: darken($primary-color, 5);
   h2 {
     margin-bottom: 4rem;
   }
 
   .contact-form {
-    // border: 5px solid $secondary-color;
-    // width: 40%;
-    width: 90%;
+    border: 5px solid $secondary-color;
+    width: 40%;
     padding: 2rem 1rem;
     margin: 0 auto;
     text-align: start;
