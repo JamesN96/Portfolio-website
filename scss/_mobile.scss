@@ -48,9 +48,19 @@
 
   // About html
 
+  // Hide Nav2
+
+  .menu-btn {
+    visibility: visible;
+  }
+
+  .menu2 {
+    visibility: hidden;
+  }
+
   main#about {
     text-align: center;
-    padding: 4rem 2rem;
+    padding: 2rem 2rem 3rem;
 
     .bio {
       grid-template-areas:
