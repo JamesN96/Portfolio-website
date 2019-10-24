@@ -71,21 +71,25 @@
       .menu .nav-close .btn-line:nth-child(2) {
         transform: rotate(-45deg) translate(5px, 0px); }
 
-.menu2-nav2 {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 1.7rem;
-  list-style: none;
-  background: #202020; }
-  .menu2-nav2 .nav-item2 {
-    display: inline-block;
-    padding-right: 3rem; }
-    .menu2-nav2 .nav-item2 a {
-      font-size: 1.6rem;
-      text-transform: uppercase;
-      border-bottom: 1px solid #1ed99b;
-      padding-bottom: 0.5rem; }
+.menu2 {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  .menu2-nav2 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.7rem;
+    list-style: none;
+    background: #202020; }
+    .menu2-nav2 .nav-item2 {
+      display: inline-block;
+      padding-right: 3rem; }
+      .menu2-nav2 .nav-item2 a {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        border-bottom: 1px solid #1ed99b;
+        padding-bottom: 0.5rem; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.25s; }
@@ -211,8 +215,10 @@ main#about h2 {
   text-align: start;
   line-height: 2rem; }
 
-main#project h2 {
-  margin-bottom: 5rem; }
+main#project {
+  margin-top: 3rem; }
+  main#project h2 {
+    margin-bottom: 5rem; }
 
 .projects {
   display: grid;
