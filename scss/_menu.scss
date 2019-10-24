@@ -105,6 +105,30 @@
   }
 }
 
+// About
+
+.menu2 {
+  &-nav2 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.7rem;
+    list-style: none;
+    background: darken($primary-color, 14);
+
+    .nav-item2 {
+      display: inline-block;
+      padding-right: 3rem;
+
+      a {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        border-bottom: 1px solid $secondary-color;
+        padding-bottom: 0.5rem;
+      }
+    }
+  }
+}
 // Set a transition delay for each nav item
 @for $x from 1 through 4 {
   .nav-item:nth-child(#{$x}) {
