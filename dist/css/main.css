@@ -253,12 +253,13 @@ main#project {
 
 main#contact {
   margin: 2rem auto 0;
-  background: #373737; }
+  width: 100%; }
   main#contact h2 {
     margin-bottom: 4rem; }
   main#contact .contact-form {
-    border: 5px solid #1ed99b;
-    width: 40%;
+    border: 3px solid #1ed99b;
+    background: #373737;
+    width: 45rem;
     padding: 2rem 1rem;
     margin: 0 auto;
     text-align: start; }
@@ -305,7 +306,9 @@ footer {
   main .sm-heading {
     margin-bottom: 2.5rem; }
   .projects {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); }
+  main#contact .contact-form {
+    width: 35rem; } }
 
 @media screen and (max-width: 768px) {
   header .menu .menu-nav {
@@ -330,7 +333,11 @@ footer {
   main#project {
     margin-top: 1rem; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  main#contact {
+    margin: 1rem auto 0; }
+    main#contact .contact-form {
+      width: 100%; } }
 
 @media screen and (max-width: 500px) {
   main#home h1.lg-heading {
@@ -338,4 +345,10 @@ footer {
   main#home .text-secondary {
     margin-left: -15px; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  main#contact {
+    padding: 3rem 2rem; }
+    main#contact .contact-form {
+      width: 100%; }
+      main#contact .contact-form button[type="submit"] {
+        width: 90%; } }

@@ -189,16 +189,16 @@ main#project {
 // Contact HTML
 
 main#contact {
-  // border: 1px solid red;
   margin: 2rem auto 0;
-  background: darken($primary-color, 5);
+  width: 100%;
   h2 {
     margin-bottom: 4rem;
   }
 
   .contact-form {
-    border: 5px solid $secondary-color;
-    width: 40%;
+    border: 3px solid $secondary-color;
+    background: darken($primary-color, 5);
+    width: 45rem;
     padding: 2rem 1rem;
     margin: 0 auto;
     text-align: start;

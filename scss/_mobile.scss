@@ -25,6 +25,13 @@
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  // Contact Me
+  main#contact {
+    .contact-form {
+      width: 35rem;
+    }
+  }
 }
 
 // Small laptops and Tablets
@@ -81,6 +88,14 @@
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  // Contact Me
+  main#contact {
+    margin: 1rem auto 0;
+    .contact-form {
+      width: 100%;
+    }
+  }
 }
 
 // Phones
@@ -98,5 +113,18 @@
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  // Contact Me
+  main#contact {
+    padding: 3rem 2rem;
+
+    .contact-form {
+      width: 100%;
+
+      button[type="submit"] {
+        width: 90%;
+      }
+    }
   }
 }
