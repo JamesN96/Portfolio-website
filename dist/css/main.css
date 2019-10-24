@@ -213,6 +213,8 @@ main#about h2 {
 
 .bio {
   display: grid;
+  width: 90%;
+  margin: 0 auto;
   grid-template-areas: "img content content";
   grid-template-columns: repeat(3, 1fr);
   column-gap: 3rem; }
