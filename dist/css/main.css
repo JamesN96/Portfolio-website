@@ -129,7 +129,8 @@ body {
   body#bg-img {
     background: url(../img/background.jpg);
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: cover;
+    background-position: 55% -91%; }
   body:after {
     content: "";
     position: absolute;
