@@ -185,13 +185,20 @@ main#project {
 // Contact HTML
 
 main#contact {
+  // border: 1px solid red;
+  border-left: 2px solid $secondary-color;
+  border-right: 2px solid $secondary-color;
+  margin: 0 auto;
+  width: 40%;
+  background: darken($primary-color, 5);
   h2 {
     margin-bottom: 4rem;
   }
 
   .contact-form {
-    border: 5px solid $secondary-color;
-    width: 40%;
+    // border: 5px solid $secondary-color;
+    // width: 40%;
+    width: 90%;
     padding: 2rem 1rem;
     margin: 0 auto;
     text-align: start;
@@ -199,7 +206,7 @@ main#contact {
     label {
       color: $secondary-color;
       font-weight: bold;
-      padding-left: 2rem;
+      padding-left: 1.6rem;
     }
     input[type="text"],
     input[type="email"],

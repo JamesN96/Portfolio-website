@@ -226,41 +226,45 @@ main#project h2 {
     color: #000;
     transition: all 0.5s ease-out; }
 
-main#contact h2 {
-  margin-bottom: 4rem; }
-
-main#contact .contact-form {
-  border: 5px solid #1ed99b;
-  width: 40%;
-  padding: 2rem 1rem;
+main#contact {
+  border-left: 2px solid #1ed99b;
+  border-right: 2px solid #1ed99b;
   margin: 0 auto;
-  text-align: start; }
-  main#contact .contact-form label {
-    color: #1ed99b;
-    font-weight: bold;
-    padding-left: 2rem; }
-  main#contact .contact-form input[type="text"],
-  main#contact .contact-form input[type="email"],
-  main#contact .contact-form input[type="number"],
-  main#contact .contact-form textarea {
-    display: block;
+  width: 40%;
+  background: #373737; }
+  main#contact h2 {
+    margin-bottom: 4rem; }
+  main#contact .contact-form {
     width: 90%;
-    padding: 0.5rem 0;
-    margin: 10px auto;
-    outline: none; }
-  main#contact .contact-form button[type="submit"] {
-    display: block;
-    width: 20%;
-    padding: 0.7rem 0;
-    margin: 2rem auto 0;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    font-size: 1.1rem;
-    cursor: pointer; }
-    main#contact .contact-form button[type="submit"]:hover {
-      background: #1ed99b;
-      transform: scale(1.01); }
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    text-align: start; }
+    main#contact .contact-form label {
+      color: #1ed99b;
+      font-weight: bold;
+      padding-left: 1.6rem; }
+    main#contact .contact-form input[type="text"],
+    main#contact .contact-form input[type="email"],
+    main#contact .contact-form input[type="number"],
+    main#contact .contact-form textarea {
+      display: block;
+      width: 90%;
+      padding: 0.5rem 0;
+      margin: 10px auto;
+      outline: none; }
+    main#contact .contact-form button[type="submit"] {
+      display: block;
+      width: 20%;
+      padding: 0.7rem 0;
+      margin: 2rem auto 0;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      font-size: 1.1rem;
+      cursor: pointer; }
+      main#contact .contact-form button[type="submit"]:hover {
+        background: #1ed99b;
+        transform: scale(1.01); }
 
 footer {
   text-align: center;
