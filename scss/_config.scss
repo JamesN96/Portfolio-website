@@ -40,6 +40,12 @@ $background-opacity: 0.9;
 }
 // Media query mixins
 
+@mixin iphoneXs {
+  @media screen and (max-width: 375px) {
+    @content;
+  }
+}
+
 @mixin samsungS10 {
   @media screen and (max-width: 420px) {
     @content;
