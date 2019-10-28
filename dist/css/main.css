@@ -377,3 +377,16 @@ footer {
       width: 100%; }
       main#contact .contact-form button[type="submit"] {
         width: 90%; } }
+
+@media screen and (max-width: 420px) {
+  main#home span.text-secondary {
+    margin-left: -30px; }
+  img.profile-img {
+    margin-left: -10px; }
+  .bio-content p {
+    margin-left: -10px; }
+  main#project span.text-secondary {
+    margin-left: -33px; }
+  main#project h2 {
+    margin-top: 50px;
+    margin-bottom: 60px; } }
