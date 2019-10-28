@@ -40,6 +40,12 @@ $background-opacity: 0.9;
 }
 // Media query mixins
 
+@mixin samsungS10 {
+  @media screen and (max-width: 420px) {
+    @content;
+  }
+}
+
 @mixin mediaSm {
   @media screen and (max-width: 500px) {
     @content;
