@@ -390,3 +390,18 @@ footer {
   main#project h2 {
     margin-top: 50px;
     margin-bottom: 60px; } }
+
+@media screen and (max-width: 375px) {
+  main#home h1.lg-heading {
+    margin-left: -20px; }
+  main#about img.profile-img {
+    margin-left: -27px; }
+  main#about .bio-content p,
+  main#about h3 {
+    margin-left: -30px; }
+  main#project span.text-secondary {
+    margin-left: -55px; }
+  main#contact h1.lg-heading {
+    margin-left: -20px; }
+  main#contact span.text-secondary {
+    margin-left: 20px; } }
